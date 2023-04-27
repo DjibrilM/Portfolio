@@ -19,7 +19,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Microverse Hello project
+# 📖  Portfolio project
   <a name="about-project"></a>
 The following project consist of demostrating the usage of github best practices, Linsts configs and how to write source code documentation in professional manner.
 
