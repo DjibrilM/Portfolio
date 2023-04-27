@@ -3,7 +3,7 @@
 
 /* global variables  */
 :root {
-  --mobile-margin-x: 30px;
+  --mobile-margin-x: 27px;
   --primary-color: #6070ff;
   --primary-font: 'Poppins', sans-serif;
   --primary-dark-color: #172b4d;
@@ -20,7 +20,7 @@ body {
   background-color: rgba(234, 234, 255, 0.433);
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -28,10 +28,10 @@ a{
   width: 100%;
   min-height: 600px;
   padding-top: 30px;
-  background-image: url('/assets/images/showcasebackground.png');
+  background-image: url('/assets/styles/showcasebackground.png');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0px 50px;
+  background-position: 0 50px;
   background-color: white;
   border-bottom-left-radius: 70px;
 }
