@@ -20,6 +20,10 @@ body {
   background-color: rgba(234, 234, 255, 0.433);
 }
 
+a{
+  text-decoration: none;
+}
+
 .showcase {
   width: 100%;
   min-height: 600px;
@@ -27,7 +31,9 @@ body {
   background-image: url('/assets/images/showcasebackground.png');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: 0px 50px;
+  background-color: white;
+  border-bottom-left-radius: 70px;
 }
 
 .main-header {
@@ -42,7 +48,7 @@ body {
 
 .main-header nav .logo {
   color: var(--primary-color);
-  font-size: 23px;
+  font-size: 18px;
   font-weight: bold;
   font-family: var(--primary-font);
 }
@@ -59,10 +65,11 @@ body {
 }
 
 .showcase-description h1 {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-weight: 900;
   font-family: var(--primary-font);
   color: var(--primary-dark-color);
+  text-decoration: none;
 }
 
 .showcase-description p {
