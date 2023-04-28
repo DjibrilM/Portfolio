@@ -1,0 +1,107 @@
+/* //poppins fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* global variables  */
+:root {
+  --mobile-margin-x: 27px;
+  --primary-color: #6070ff;
+  --primary-font: 'Poppins', sans-serif;
+  --primary-dark-color: #172b4d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: rgba(234, 234, 255, 0.433);
+}
+
+a {
+  text-decoration: none;
+}
+
+.showcase {
+  width: 100%;
+  min-height: 600px;
+  padding-top: 30px;
+  background-image: url('/assets/styles/showcasebackground.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 50px;
+  background-color: white;
+  border-bottom-left-radius: 70px;
+}
+
+.main-header {
+  margin-inline: var(--mobile-margin-x);
+}
+
+.main-header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-header nav .logo {
+  color: var(--primary-color);
+  font-size: 18px;
+  font-weight: bold;
+  font-family: var(--primary-font);
+}
+
+.main-header nav i {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.showcase-description {
+  margin-inline: var(--mobile-margin-x);
+  margin-top: 50px;
+}
+
+.showcase-description h1 {
+  font-size: 2.2rem;
+  font-weight: 900;
+  font-family: var(--primary-font);
+  color: var(--primary-dark-color);
+  text-decoration: none;
+}
+
+.showcase-description p {
+  font-family: var(--primary-font);
+  color: var(--primary-dark-color);
+  line-height: 1.8rem;
+  margin-top: 10px;
+}
+
+.showcase-contact {
+  margin-inline: var(--mobile-margin-x);
+  margin-top: 20px;
+  font-family: var(--primary-font);
+}
+
+.showcase-contact .contact-link {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: var(--primary-color);
+}
+
+.showcase-contact-icons {
+  display: flex;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.showcase-contact-icons svg {
+  color: var(--primary-dark-color);
+  cursor: pointer;
+}
+
+.showcase-contact-icons svg:hover {
+  color: var(--primary-color);
+}
