@@ -153,15 +153,24 @@ a {
   align-items: center;
 }
 
-.project-description .details p:nth-child(1) {
-  color: #344563;
-  font-size: 15px;
-  font-weight: 500;
-}
-
 .project-description .details p {
   font-weight: 400;
   color: #7a869a;
+}
+
+.project-description .used-programming-languages p {
+  padding: 5px 15px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--primary-color);
+  border-radius: 10px;
+  background-color: #ebebff;
+}
+
+.project-description .details :nth-child(1) {
+  color: #344563;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 .project-description .details .cercle {
@@ -184,15 +193,6 @@ a {
   align-items: center;
   gap: 10px;
   margin: 10px 0;
-}
-
-.project-description .used-programming-languages p {
-  padding: 5px 15px;
-  font-size: 14px;
-  font-weight: 500;
-  color: var(--primary-color);
-  border-radius: 10px;
-  background-color: #ebebff;
 }
 
 .project-card .project-button-link-container {
@@ -225,10 +225,7 @@ a {
   width: 90%;
   line-height: 30px;
   margin-top: 20px;
-}
-
-.about-section .contact {
-  margin-top: 30px;
+  margin-bottom: 40px;
 }
 
 .about-section .contact a {
@@ -248,11 +245,12 @@ a {
 
 .tools-summery .header h1 {
   font-weight: 500;
+  font-size: 20px;
   color: var(--primary-dark-color);
 }
 
 .tools-summery .header .bx-chevron-down {
-  font-size: 30px;
+  font-size: 20px;
   color: #5e6c84;
 }
 
@@ -292,17 +290,17 @@ a {
   color: var(--primary-dark-color);
 }
 
-.tool-dropdown i {
+.tool-dropdown .bx-chevron-right {
   font-size: 20px;
   color: #acb7c3;
 }
 
-.contact {
+.contact-section {
   background-color: white;
   padding-top: 150px;
 }
 
-.contac-form {
+.contact-form {
   min-height: 650px;
   padding: var(--mobile-margin-x);
   background-image: url("/assets/styles/image8.png");
@@ -311,14 +309,14 @@ a {
   padding-top: 40px;
 }
 
-.contac-form h1 {
+.contact-form .contact-title {
   padding-top: 100px;
   color: white;
   font-size: 40px;
   text-align: center;
 }
 
-.contac-form p {
+.contact-form .contact-description {
   margin-top: 20px;
   line-height: 2rem;
   color: white;
@@ -362,7 +360,7 @@ a {
   outline: none;
 }
 
-.contac-form button {
+.contact-form button {
   padding: 14px 30px;
   background-color: transparent;
   background-color: white;
