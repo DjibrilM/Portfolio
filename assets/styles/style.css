@@ -296,3 +296,79 @@ a {
   font-size: 20px;
   color: #acb7c3;
 }
+
+.contact {
+  background-color: white;
+  padding-top: 150px;
+}
+
+.contac-form {
+  min-height: 650px;
+  padding: var(--mobile-margin-x);
+  background-image: url("/assets/styles/image8.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-top: 40px;
+}
+
+.contac-form h1 {
+  padding-top: 100px;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.contac-form p {
+  margin-top: 20px;
+  line-height: 2rem;
+  color: white;
+  text-align: center;
+}
+
+.input-container {
+  font-family: 'Poppins', sans-serif;
+  border: 2px solid rgb(212, 212, 212);
+  width: 90%;
+  height: 2.5rem;
+  background-color: white;
+  margin: 40px 0;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.input-container input {
+  width: 100%;
+  border: none;
+  outline: none;
+  height: 100%;
+}
+
+.textarea-container {
+  width: 90%;
+  min-height: 10rem;
+  background-color: white;
+  border: 2px solid rgb(212, 212, 212);
+  margin: 40px 0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.textarea-container textarea {
+  resize: vertical;
+  transition: 0.2s linear;
+  width: 100%;
+  min-height: 10rem;
+  border: none;
+  outline: none;
+}
+
+.contac-form button {
+  padding: 14px 30px;
+  background-color: transparent;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  color: var(--primary-color);
+  cursor: pointer;
+  font-size: 17px;
+}
