@@ -333,17 +333,18 @@
                 that
                 needs coding.
                 I’d love to help with it!</p>
-            <form action="">
+            <form method="POST" action="https://formspree.io/f/mnqywdbe">
                 <div class="input-container">
-                    <input required minlength="4" type="text" placeholder="Name">
+                    <input id="full-name" name="fullName" required maxlength="30" type="text" placeholder="Name">
                 </div>
 
                 <div class="input-container">
-                    <input required type="text" placeholder="Email">
+                    <input id="email" name="email" required type="text" placeholder="Email">
                 </div>
 
                 <div class="textarea-container">
-                    <textarea required minlength="10" placeholder="Write your message here..." type="text"></textarea>
+                    <textarea id="" name="messageField" required maxlength="500"
+                        placeholder="Write your message here..." type="text"></textarea>
                 </div>
 
                 <div class="">
