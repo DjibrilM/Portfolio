@@ -310,6 +310,7 @@ ul {
   padding-top: 100px;
 }
 
+
 .contact-form-container {
   background-color: var(--primary-color);
   padding-top: 100px;
@@ -318,12 +319,22 @@ ul {
   flex-direction: column;
   gap: 30px;
   border-top-left-radius: 70px;
+  position: relative;
+  overflow: hidden;
 }
+
+.contact-bg-svg {
+  position: absolute;
+  right: -40px;
+  z-index: 0;
+}
+
 
 .contact-form-container form {
   display: flex;
   flex-direction: column;
   width: 100%;
+  z-index: 1;
 }
 
 .contact-form-container .contact-title {
@@ -340,7 +351,7 @@ ul {
 
 .input-container {
   width: 100%;
-  padding: 7px 0px;
+  padding: 9px 0px;
   background-color: white;
   display: flex;
   align-items: center;
