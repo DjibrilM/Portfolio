@@ -210,6 +210,10 @@ ul {
   transition-duration: 0.4s;
 }
 
+.about-section .contact a {
+  color: var(--primary-color);
+}
+
 .project-card .project-button-link-container a:hover {
   background: var(--primary-color);
   color: white;
@@ -235,10 +239,6 @@ ul {
   line-height: 30px;
   margin-top: 20px;
   margin-bottom: 40px;
-}
-
-.about-section .contact a {
-  color: var(--primary-color);
 }
 
 .tools-summery {
@@ -303,12 +303,12 @@ ul {
   font-size: 20px;
   color: #acb7c3;
 }
+
 .contact-section {
   width: 100%;
   background-color: white;
   padding-top: 100px;
 }
-
 
 .contact-form-container {
   background-color: var(--primary-color);
@@ -327,7 +327,6 @@ ul {
   right: -40px;
   z-index: 0;
 }
-
 
 .contact-form-container form {
   display: flex;
@@ -350,7 +349,7 @@ ul {
 
 .input-container {
   width: 100%;
-  padding: 9px 0px;
+  padding: 9px 0;
   background-color: white;
   display: flex;
   align-items: center;
@@ -382,7 +381,7 @@ ul {
   outline: none;
   border: none;
   line-height: 1.7rem;
-  padding: 10px 0px;
+  padding: 10px 0;
   transition-duration: 0.2s;
 }
 
@@ -391,7 +390,7 @@ ul {
   background: white;
   color: var(--primary-color);
   border-radius: 10px;
-  margin: 20px 0px;
+  margin: 20px 0;
   outline: none;
   cursor: pointer;
   border: 2px solid transparent;
