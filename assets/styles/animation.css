@@ -1,8 +1,17 @@
 .project-image img {
-    transition: 0.4s ease;
-    cursor: pointer;
+  transition: 0.4s ease;
+  cursor: pointer;
 }
 
 .project-image:hover img {
-    transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.showcase-icon {
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.showcase-icon:hover {
+  transform: scale(1.25) rotateZ(7deg);
 }
