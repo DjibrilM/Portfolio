@@ -89,7 +89,7 @@
   .tools-summery {
     flex-basis: 40%;
     display: flex;
-    margin-top: 0px;
+    margin-top: 0;
     flex-direction: column;
     justify-content: space-between;
   }
@@ -106,7 +106,7 @@
     align-items: flex-start;
   }
 
-  .tool p{
+  .tool p {
     font-size: 14px;
   }
 

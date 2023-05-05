@@ -99,7 +99,6 @@ ul {
   z-index: 10;
 }
 
-
 .showcase-contact .contact-link {
   text-decoration: none;
   font-size: 1.1rem;
@@ -109,7 +108,6 @@ ul {
 .showcase-contact-icons {
   display: flex;
   gap: 20px;
-
 }
 
 .showcase-contact-icons.top-mr {
@@ -133,6 +131,15 @@ ul {
   justify-content: center;
   flex-direction: column;
   gap: 70px;
+}
+
+.contact-connect-button {
+  margin: 15px 0;
+}
+
+.contact-connect-button a {
+  color: var(--primary-color);
+  font-size: 18px;
 }
 
 .project-card {
@@ -233,15 +240,6 @@ ul {
   margin-top: 30px;
 }
 
-.contact-connect-button {
-  margin: 15px 0px;
-}
-
-.contact-connect-button a {
-  color: var(--primary-color);
-  font-size: 18px;
-}
-
 .about-section .contact a {
   color: var(--primary-color);
   border: 1.5px solid var(--primary-color);
@@ -285,7 +283,6 @@ ul {
 .tools-summery {
   margin-top: 40px;
 }
-
 
 .tool-dropdown {
   margin-bottom: 30px;
@@ -339,7 +336,6 @@ ul {
 .tool img {
   width: 40px;
 }
-
 
 .contact-section {
   width: 100%;
