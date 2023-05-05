@@ -99,6 +99,7 @@ ul {
   z-index: 10;
 }
 
+
 .showcase-contact .contact-link {
   text-decoration: none;
   font-size: 1.1rem;
@@ -108,6 +109,10 @@ ul {
 .showcase-contact-icons {
   display: flex;
   gap: 20px;
+
+}
+
+.showcase-contact-icons.top-mr {
   margin-top: 40px;
 }
 
@@ -224,6 +229,19 @@ ul {
   transition-duration: 0.4s;
 }
 
+.about-section .contact {
+  margin-top: 30px;
+}
+
+.contact-connect-button {
+  margin: 15px 0px;
+}
+
+.contact-connect-button a {
+  color: var(--primary-color);
+  font-size: 18px;
+}
+
 .about-section .contact a {
   color: var(--primary-color);
   border: 1.5px solid var(--primary-color);
@@ -250,9 +268,9 @@ ul {
   border-top-right-radius: 70px;
 }
 
-.about-section .info-description h1 {
+.about-section .info-description h2 {
   color: var(--primary-dark-color);
-  font-size: 35px;
+  font-size: 40px;
   padding-top: 70px;
 }
 
@@ -261,64 +279,38 @@ ul {
   width: 90%;
   line-height: 30px;
   margin-top: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 .tools-summery {
   margin-top: 40px;
 }
 
-.tools-summery .header {
+
+.tool-dropdown {
+  margin-bottom: 30px;
   width: 100%;
-  display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.tools-summery .header h2 {
   font-weight: 500;
-  font-size: 20px;
   color: var(--primary-dark-color);
 }
 
-.tools-summery .header .bx-chevron-down {
-  font-size: 20px;
-  color: #5e6c84;
+.tool-dropdown.closed {
+  border-bottom: 0.5px solid rgba(151, 149, 149, 0.311);
 }
 
-.languages {
-  margin-top: 70px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.language {
+.tools-dropdown .tool-dropdown .dropdown-header {
+  margin-bottom: 30px;
   width: 100%;
-  height: 70px;
-  display: flex;
-  align-items: center;
-  background: rgba(236, 236, 236, 0.87);
-  border-radius: 10px;
-}
-
-.language img {
-  width: 40px;
-  margin: 0 10px;
-}
-
-.tools-dropdown {
-  margin-top: 60px;
-}
-
-.tool-dropdown {
-  width: 100%;
-  padding: 30px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 0.5px solid rgba(151, 149, 149, 0.311);
+}
+
+.tools-dropdown .dropdown-header h2 {
   font-weight: 500;
+  font-size: 20px;
   color: var(--primary-dark-color);
 }
 
@@ -326,6 +318,28 @@ ul {
   font-size: 20px;
   color: #acb7c3;
 }
+
+.tools {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tool {
+  gap: 10px;
+  width: 100%;
+  padding: 15px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background: rgba(236, 236, 236, 0.87);
+  border-radius: 10px;
+}
+
+.tool img {
+  width: 40px;
+}
+
 
 .contact-section {
   width: 100%;
