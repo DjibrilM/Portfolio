@@ -138,16 +138,9 @@
     justify-content: center;
   }
 
-
-  .tools-summery {
-    margin-top: 40px;
-  }
-
   .tool-dropdown {
     margin-top: 5px;
   }
-
-
 }
 
 @media (min-width: 900px) {
