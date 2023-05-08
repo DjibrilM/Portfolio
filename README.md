@@ -61,7 +61,7 @@ To run the project click on the HTML document on your local machine or use the l
 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-live demo <a href="https://djibrilm.github.io/Portfolio/">link</a>
+live demo <a href="https://djibrilm.github.io/Portfolio/"> link🚀</a>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
