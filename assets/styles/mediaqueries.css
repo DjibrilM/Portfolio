@@ -18,6 +18,10 @@
 }
 
 @media (min-width: 800px) {
+  .side-menu {
+    display: none;
+  }
+
   .showcase-bg {
     display: none;
   }
