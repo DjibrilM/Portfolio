@@ -68,7 +68,6 @@ live demo <a href="https://djibrilm.github.io/Portfolio/"> link🚀</a>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -94,6 +93,16 @@ run `npm install` for installing all dependencies
 - GitHub: [@DjibrilMugisho](https://github.com/DjibrilM?tab=overview&from=2023-04-01&to=2023-04-26)
 - Twitter: [@djibrilM](https://twitter.com/DjibrilMugisho)
 - LinkedIn: [DjibrilMugisho](https://www.linkedin.com/in/djibril-mugisho-509042241/)
+
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [x] **[project detail Modal]**
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
