@@ -2,12 +2,16 @@
   width: 100%;
   height: 100vh;
   position: fixed;
-  background-color: #1625b18a;
+  background-color: #2e3ecb8a;
   backdrop-filter: blur(10px);
   z-index: 10000;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 20px;
+  transform: scale(0) rotate(100deg);
+  transition: 500ms ease-in-out;
+  overflow: hidden;
 }
 
 .modal {
@@ -121,6 +125,10 @@
   padding-top: 10px;
   gap: 20px;
   border-top: 1px solid rgba(0, 0, 0, 0.127);
+}
+
+.open-backdrop {
+  transform: scale(1) rotate(0deg);
 }
 
 /* //mediaqueries */
