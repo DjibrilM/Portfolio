@@ -97,6 +97,16 @@ run `npm install` for installing all dependencies
 - LinkedIn: [DjibrilMugisho](https://www.linkedin.com/in/djibril-mugisho-509042241/)
 
 
+## 🔭 Future Features <a name="future-features"></a>
+
+- [x] **[project detail Modal]**
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
