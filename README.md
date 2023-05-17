@@ -133,4 +133,4 @@ I would like to thank Microverse for all the inspiration and great support offer
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/olanikegloria/mobile-first/blob/main/LICENSE)

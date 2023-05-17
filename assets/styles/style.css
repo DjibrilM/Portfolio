@@ -218,6 +218,11 @@ ul {
   color: var(--primary-dark-color);
 }
 
+.used-programming-languages {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .project-description .used-programming-languages {
   display: flex;
   align-items: center;
