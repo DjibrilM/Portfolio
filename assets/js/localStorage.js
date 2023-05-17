@@ -13,7 +13,7 @@ const updateInputs = (value, type) => {
         localStorage.setItem('form', JSON.stringify(newValue));
     };
 
-    
+
     const getExistingData = JSON.parse(localStorage.getItem("form"));
     getExistingData[type] = value;
     localStorage.setItem('form', JSON.stringify(getExistingData));
