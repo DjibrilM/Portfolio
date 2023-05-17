@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="assets/styles/mediaqueries.css">
     <script src="./assets/js/main.js" defer></script>
     <script src="./assets/js/validation.js" defer></script>
+    <script src="./assets/js/localStorage.js" defer></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
@@ -326,16 +327,17 @@
                 I’d love to help with it!</p>
             <form method="POST" action="https://formspree.io/f/mnqywdbe">
                 <div class="input-container">
-                    <input id="full-name" name="fullName" required maxlength="30" type="text" placeholder="Name">
+                    <input id="full-name" name="fullName" required maxlength="30" type="text" placeholder="Name"
+                        class="contact-form-name">
                 </div>
 
                 <div class="input-container">
-                    <input id="email" name="email" required type="email" placeholder="Email">
+                    <input id="email" name="email" required type="email" placeholder="Email" class="contact-form-email">
                 </div>
 
                 <div class="textarea-container">
                     <textarea id="" name="messageField" required maxlength="500"
-                        placeholder="Write your message here..." type="text"></textarea>
+                        placeholder="Write your message here..." type="text" class="contact-form-message"></textarea>
                 </div>
 
                 <div class="contact-form-button-container">
