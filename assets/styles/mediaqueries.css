@@ -150,11 +150,11 @@
     gap: 30px;
   }
 
-  .projects> :nth-last-child(2) :last-child {
+  .projects > :nth-last-child(2) :last-child {
     flex-direction: row-reverse;
   }
 
-  .projects> :nth-last-child(4) :last-child {
+  .projects > :nth-last-child(4) :last-child {
     flex-direction: row-reverse;
   }
 

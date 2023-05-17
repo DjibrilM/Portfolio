@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="assets/styles/side-menu.css">
     <link rel="stylesheet" href="assets/styles/details.css">
     <link rel="stylesheet" href="assets/styles/mediaqueries.css">
-    <script src="./assets/js/main.js"  defer></script>
+    <script src="./assets/js/main.js" defer></script>
+    <script src="./assets/js/validation.js" defer></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
@@ -321,7 +322,7 @@
                 that
                 needs coding.
                 I’d love to help with it!</p>
-            <form method="POST" action="https://formspree.io/f/mnqywdbe">
+            <form method="POST" action="https://formspree.io/f/mnqywdbe" id="form">
                 <div class="input-container">
                     <input id="full-name" name="fullName" required maxlength="30" type="text" placeholder="Name">
                 </div>
@@ -336,6 +337,7 @@
                 </div>
 
                 <div class="contact-form-button-container">
+                    <p class="message">Wrong email</p>
                     <button class="" type="submit">
                         Get in touch
                     </button>

@@ -218,11 +218,9 @@ ul {
   color: var(--primary-dark-color);
 }
 
-
-.used-programming-languages
-{
-display: flex;
-flex-wrap: wrap;
+.used-programming-languages {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .project-description .used-programming-languages {
@@ -431,7 +429,7 @@ flex-wrap: wrap;
   background: white;
   color: var(--primary-color);
   border-radius: 10px;
-  margin: 20px 0;
+  margin-top: 50px;
   outline: none;
   cursor: pointer;
   border: 2px solid transparent;
@@ -443,4 +441,23 @@ flex-wrap: wrap;
   background-color: transparent;
   border-color: white;
   color: white;
+}
+
+.contact-form-button-container {
+  position: relative;
+  flex-direction: column;
+}
+
+.contact-form-button-container .message {
+  position: absolute;
+  bottom: 65px;
+  font-size: 12px;
+  padding: 5px 0;
+  text-align: center;
+  color: white;
+  width: 100%;
+  border: 1px solid white;
+  background-color: rgb(245, 97, 97);
+  opacity: 0;
+  transition: 200ms ease-in-out;
 }
