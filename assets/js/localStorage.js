@@ -21,6 +21,8 @@ const updateInputs = (value, type) => {
 
 const updateLoadedData = () => {
     const getFormData = JSON.parse(localStorage.getItem("form"));
+    if (ft - localStorage === null) return;
+
     email.value = getFormData["email"];
     name.value = getFormData["name"];
     textarea.value = getFormData["message"];
