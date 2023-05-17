@@ -218,11 +218,9 @@ ul {
   color: var(--primary-dark-color);
 }
 
-
-.used-programming-languages
-{
-display: flex;
-flex-wrap: wrap;
+.used-programming-languages {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .project-description .used-programming-languages {
