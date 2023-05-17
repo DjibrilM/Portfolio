@@ -6,21 +6,20 @@
   backdrop-filter: blur(10px);
   z-index: 10000;
   display: flex;
-  align-items: center;
   justify-content: center;
-  padding-top: 20px;
   transform: scale(0) rotate(100deg);
   transition: 500ms ease-in-out;
   overflow: hidden;
+  padding-top: 10px;
 }
 
 .modal {
   background-color: #ffff;
   display: flex;
   flex-direction: column;
+  max-height: 650px;
   border-radius: 10px;
   padding: 20px;
-  margin: 0 10px;
   box-shadow: 0 0 30vw rgba(0, 0, 0, 0.663);
 }
 

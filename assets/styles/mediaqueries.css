@@ -114,15 +114,6 @@
     font-size: 14px;
   }
 
-  .project-1 {
-    flex-direction: row-reverse;
-  }
-
-  .project-3 {
-    border: 2px solid var(--primary-color);
-    box-shadow: 0 0 2vw #6070ff3d;
-  }
-
   .contact-form-container p {
     width: 50%;
     margin: auto;
@@ -159,8 +150,11 @@
     gap: 30px;
   }
 
-  .project-1,
-  .project-4 {
+  .projects> :nth-last-child(2) :last-child {
+    flex-direction: row-reverse;
+  }
+
+  .projects> :nth-last-child(4) :last-child {
     flex-direction: row-reverse;
   }
 
