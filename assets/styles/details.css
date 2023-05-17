@@ -3,7 +3,6 @@
   height: 100vh;
   position: fixed;
   background-color: #c1c7d07a;
-  
   backdrop-filter: blur(10px);
   z-index: 10000;
   display: flex;
@@ -24,7 +23,7 @@
   box-shadow: 0 0 30vw rgba(0, 0, 0, 0.663);
 }
 
-.parag{
+.parag {
   margin-top: 20px;
 }
 
