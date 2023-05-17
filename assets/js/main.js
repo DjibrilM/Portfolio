@@ -9,34 +9,34 @@ const closebtn = document.querySelector('.close-btn');
 
 const projects = [
   {
-    title: "Tonic",
-    coverImage: "assets/images/project1.png",
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-    usedTools: ["html", "javascript", "css"],
+    title: 'Tonic',
+    coverImage: 'assets/images/project1.png',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    usedTools: ['html', 'javascript', 'css'],
   },
   {
-    title: "Multi-Post Stories",
-    coverImage: "assets/images/project2.png",
-    description: "Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.",
-    usedTools: ["html", "javascript", "css"],
+    title: 'Multi-Post Stories',
+    coverImage: 'assets/images/project2.png',
+    description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
+    usedTools: ['html', 'javascript', 'css'],
   },
   {
-    title: "Facebook 360",
-    coverImage: "assets/images/project3.png",
+    title: 'Facebook 360',
+    coverImage: 'assets/images/project3.png',
     description: "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
-    usedTools: ["html", "javascript", "css", "Ruby on rails"]
+    usedTools: ['html', 'javascript', 'css', 'Ruby on rails'],
   },
   {
-    title: "Uber Navigation",
-    coverImage: "assets/images/project4.png",
-    description: "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.",
-    usedTools: ["html", "javascript", "css", "Ruby on rails"]
-  }
+    title: 'Uber Navigation',
+    coverImage: 'assets/images/project4.png',
+    description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
+    usedTools: ['html', 'javascript', 'css', 'Ruby on rails'],
+  },
 ];
 
-const projectCard = (title, description, tools, image, index) => {
+const projectCard = (title, description, tools, image) => {
   const project = document.createElement('div');
-  project.className = "project-card";
+  project.className = 'project-card';
 
   project.innerHTML = `
   <div class="project-image">
@@ -58,9 +58,7 @@ const projectCard = (title, description, tools, image, index) => {
       </p>
 
       <div class="used-programming-languages">
-      ${tools.map((tool) => {
-    return `<p>${tool}</p>`;
-  })}
+      ${tools.map((tool) => `<p>${tool}</p>`)}
       </div>
 
       <div class="project-button-link-container">
@@ -74,8 +72,6 @@ const projectCard = (title, description, tools, image, index) => {
   return project;
 };
 
-
-
 const openMenu = () => {
   sideMenu.classList.add('open-side-menu');
 };
@@ -84,7 +80,7 @@ const closeMenu = () => {
   sideMenu.classList.remove('open-side-menu');
 };
 
-const showModalDesc = (card, index) => {
+const showModalDesc = (card) => {
   detailBackdrop.classList.add('open-backdrop');
   const title = card.querySelector('.project-title').textContent;
   const description = card.querySelector('.detail-description').textContent;
@@ -102,19 +98,17 @@ menuItems.forEach((el) => {
   el.addEventListener('click', () => closeMenu());
 });
 
-console.log(projects);
-
 // for each project card
 projects.forEach((card) => {
-  projectsSection.appendChild(projectCard(card.title, card.description, card.usedTools, card.coverImage))
+  projectsSection.appendChild(projectCard(card.title, card.description,
+    card.usedTools, card.coverImage));
 });
 
-
-//for each project card 
+// for each project card
 const projectCardEl = document.querySelectorAll('.project-card');
 projectCardEl.forEach((card, index) => {
   card.querySelector('.project-btn').addEventListener('click', () => showModalDesc(card, index));
-})
+});
 // events
 menubtn.addEventListener('click', () => openMenu());
 closeBtn.addEventListener('click', () => closeMenu());
