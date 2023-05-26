@@ -1,3 +1,4 @@
+
 const menubtn = document.querySelector('.bx-menu');
 const closeBtn = document.querySelector('.close-btn-menu');
 const projectsSection = document.querySelector('.projects');
@@ -58,7 +59,7 @@ const projectCard = (title, description, tools, image) => {
       </p>
 
       <div class="used-programming-languages">
-      ${tools.map((tool) => `<p>${tool}</p>`)}
+      ${tools.map((tool) => `<p>${tool}</p>`).join('')}
       </div>
 
       <div class="project-button-link-container">
