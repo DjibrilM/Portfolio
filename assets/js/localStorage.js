@@ -7,7 +7,7 @@ const updateInputs = (value, type) => {
   if (getLocalData === null) {
     const newValue = {
       name: '',
-      email: '',
+      email: ''
       message: '',
     };
     localStorage.setItem('form', JSON.stringify(newValue));
