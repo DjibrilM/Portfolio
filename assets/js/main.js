@@ -7,6 +7,9 @@ const detailBackdrop = document.querySelector('.backdrop');
 const descModal = document.querySelector('.modal');
 const closebtn = document.querySelector('.close-btn');
 
+
+
+
 const projects = [
   {
     title: 'Tonic',
