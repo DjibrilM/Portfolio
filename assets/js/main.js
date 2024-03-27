@@ -10,6 +10,9 @@ const closebtn = document.querySelector('.close-btn');
 
 
 
+
+
+
 const projects = [
   {
     title: 'Tonic',
